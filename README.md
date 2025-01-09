@@ -1,4 +1,4 @@
-# BonAppetit – A Modern Food Blogging Platform#
+# BonAppetit – A Modern Food Blogging Platform
 
 BonAppetit is a fully responsive, feature-rich food blogging website designed to provide users with an engaging and personalized experience in exploring culinary delights. This project highlights a combination of modern front-end development practices and a user-centric design approach.
 
