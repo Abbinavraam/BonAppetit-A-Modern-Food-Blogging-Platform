@@ -1,0 +1,106 @@
+/* General Reset */
+body, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+a{
+    text-decoration: none;
+}
+/* Container Styling */
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: url('https://images.pexels.com/photos/227432/pexels-photo-227432.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'); 
+    background-size:cover;
+    background-position: center;    
+}
+
+/* Form Container */
+.form-container {
+    /* background: white; */
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(50px);
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px 30px;
+    border-radius: 30px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+}
+
+/* Form Styling */
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form h2 {
+    text-align: center;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.input-group {
+    margin-bottom: 15px;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    outline: none;
+}
+
+.input-group input:focus {
+    border-color: #6e8efb;
+}
+
+.btn {
+    background: #6e8efb;
+    text-align: center;
+    color: white;
+    padding: 10px 0;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.btn:hover {
+    background: rgb(165, 204, 106);
+}
+
+.toggle-form {
+    text-align: center;
+    margin-top: 15px;
+    color: white;
+}
+
+.toggle-form span {
+    color: #6e8efb;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+/* Hidden Class */
+.hidden {
+    display: none;
+}
+#showSignup{
+    color: white;
+}
+#showSignup:hover{
+    color: greenyellow;
+}
