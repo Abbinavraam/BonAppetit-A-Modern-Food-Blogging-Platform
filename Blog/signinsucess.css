@@ -1,0 +1,77 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Container for the success message */
+.registration-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.success-message {
+    background-color: #4CAF50; /* Green background for success */
+    color: white;
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+    width: 100%;
+    max-width: 400px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Heading Styling */
+.success-message h1 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+}
+
+/* Paragraph Styling */
+.success-message p {
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+
+/* Button Styling */
+.login-button {
+    text-decoration: none;
+    color: white;
+    background-color: #333;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1rem;
+    transition: background-color 0.3s;
+}
+
+.login-button:hover {
+    background-color: #555;
+}
+
+/* Responsive styling */
+@media (max-width: 600px) {
+    .success-message {
+        width: 90%;
+        padding: 20px;
+    }
+
+    .success-message h1 {
+        font-size: 1.5rem;
+    }
+
+    .success-message p {
+        font-size: 0.9rem;
+    }
+}
