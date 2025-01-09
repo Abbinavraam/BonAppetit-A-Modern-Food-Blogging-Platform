@@ -64,22 +64,6 @@ What Sets BonAppetit Apart
 
 BonAppetit combines technical excellence with a user-first design philosophy. It’s more than just a recipe repository—it’s an immersive space for users to explore, learn, and interact with culinary content.
 
-# Installation
-
-Clone the repository:
-
-git clone https://github.com/yourusername/BonAppetit-A-Modern-Food-Blogging-Platform.git
-
-Navigate to the project directory:
-
-cd BonAppetit-A-Modern-Food-Blogging-Platform
-
-Open index.html in your browser or serve the project using a local development server for optimal performance.
-
-# Feedback and Collaboration
-
-Feel free to reach out if you have feedback, suggestions, or collaboration opportunities. I’m always open to discussions about front-end development, UI/UX design, and other technical aspects of the project.
-
 ## License
 
 This project is licensed under the MIT License. See the LICENSE file for details.
